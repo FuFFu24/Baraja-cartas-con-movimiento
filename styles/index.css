@@ -1,0 +1,255 @@
+body {
+  background-color: #118257;
+}
+
+.A {
+  width: 354px;
+  height: 531px;
+  background-color: rgb(250, 250, 250);
+  border: 1px solid rgb(200, 200, 200);
+  color: red;
+  position: absolute;
+  border-radius: 10px;
+  transform: rotate(340deg);
+  left: 300px;
+  top: 20%;
+  animation-name: as;
+  animation-duration: 4s;
+}
+
+.cuatro {
+  width: 354px;
+  height: 531px;
+  background-color: rgb(250, 250, 250);
+  border: 1px solid rgb(200, 200, 200);
+  color: black;
+  position: absolute;
+  left: 720px;
+  border-radius: 10px;
+  transform: rotate(350deg);
+  left: 340px;
+  top: 23%;
+  animation-name: cuatro;
+  animation-duration: 6s;
+}
+
+.seis {
+  width: 354px;
+  height: 531px;
+  background-color: rgb(250, 250, 250);
+  border: 1px solid rgb(200, 200, 200);
+  color: red;
+  position: absolute;
+  left: 1080px;
+  border-radius: 10px;
+  transform: rotate(360deg);
+  left: 380px;
+  top: 25%;
+  animation-name: seis;
+  animation-duration: 8s;
+}
+
+.siete {
+  width: 354px;
+  height: 531px;
+  background-color: rgb(250, 250, 250);
+  border: 1px solid rgb(200, 200, 200);
+  color: black;
+  position: absolute;
+  left: 1440px;
+  border-radius: 10px;
+  transform: rotate(10deg);
+  left: 420px;
+  top: 27.5%;
+  animation-name: siete;
+  animation-duration: 10s;
+}
+
+.pri {
+  text-align: center;
+  font-size: 60px;
+  position: absolute;
+  top: 0;
+  left: 10px;
+}
+
+.seg {
+  text-align: center;
+  font-size: 60px;
+  position: absolute;
+  transform: rotate(180deg);
+  bottom: 0;
+  right: 10px;
+}
+
+span {
+  position: relative;
+  bottom: 20px;
+  right: 0;
+  font-size: 50px;
+}
+
+.palo {
+  font-size: 120px;
+}
+
+#palo-as {
+  position: absolute;
+  bottom: 189.5px;
+  right: 146.5px;
+  
+}
+
+* {
+  margin: 0px;
+}
+
+#palo-4-1 {
+  position: absolute;
+  top: 105.6px;
+  left: 64.5px;
+}
+
+#palo-4-2 {
+  position: absolute;
+  bottom: 105.6px;
+  left: 64.5px;
+}
+
+#palo-4-3 {
+  position: absolute;
+  top: 105.6px;
+  right: 64.5px;
+}
+
+#palo-4-4 {
+  position: absolute;
+  bottom: 105.6px;
+  right: 64.5px;
+}
+
+#palo-6-1 {
+  position: absolute;
+  left: 64.5px;
+  top: 48.5px;
+}
+
+#palo-6-2 {
+  position: absolute;
+  right: 64.5px;
+  top: 48.5px;
+}
+
+#palo-6-3 {
+  position: absolute;
+  left: 64.5px;
+  top: 185.5px;
+}
+
+#palo-6-4 {
+  position: absolute;
+  right: 64.5px;
+  top: 185.5px;
+}
+
+#palo-6-5 {
+  position: absolute;
+  left: 64.5px;
+  bottom: 48.5px;
+}
+
+#palo-6-6 {
+  position: absolute;
+  right: 64.5px;
+  bottom: 48.5px;
+}
+
+#palo-7-1 {
+  position: absolute;
+  left: 64.5px;
+  top: 48.5px;
+}
+
+#palo-7-2 {
+  position: absolute;
+  right: 64.5px;
+  top: 48.5px;
+}
+
+#palo-7-3 {
+  position: absolute;
+  left: 64.5px;
+  top: 185.5px;
+}
+
+#palo-7-4 {
+  position: absolute;
+  right: 64.5px;
+  top: 185.5px;
+}
+
+#palo-7-5 {
+  position: absolute;
+  left: 64.5px;
+  bottom: 48.5px;
+}
+
+#palo-7-6 {
+  position: absolute;
+  right: 64.5px;
+  bottom: 48.5px;
+}
+
+#palo-7-7 {
+  position: absolute;
+  right: 137.5px;
+  top: 118px;
+}
+
+@keyframes as {
+  0%   {
+    left: -500px; 
+    top: 0;
+  }
+  100% {
+    transform: rotate(340deg);
+    left: 300px;
+    top: 20%;
+  }
+}
+
+@keyframes cuatro {
+  0%   {
+    left: -500px; 
+    top: 0;
+  }
+  100% {
+    transform: rotate(350deg);
+    left: 340px;
+    top: 23%;
+  }
+}
+
+@keyframes seis {
+  0%   {
+    left: -500px; 
+    top: 0;
+  }
+  100% {
+    transform: rotate(360deg);
+    left: 380px;
+    top: 25%;
+  }
+}
+
+@keyframes siete {
+  0%   {
+    left: -500px; 
+    top: 0;
+  }
+  100% {
+    transform: rotate(10deg);
+    left: 420px;
+    top: 27.5%;
+  }
+}
